@@ -14,7 +14,7 @@ namespace SpellChecker.Console
     ///    word more than once, simply output that word one time.
     ///    
     ///    Example:
-    ///    Please enter a sentance: Salley sells seashellss by the seashore.  The shells Salley sells are surely by the sea.
+    ///    Please enter a sentence: Salley sells seashellss by the seashore.  The shells Salley sells are surely by the sea.
     ///    Misspelled words: Salley seashellss
     ///    
     /// 2. The concrete implementation of SpellChecker depends on two other implementations of ISpellChecker, DictionaryDotComSpellChecker
@@ -32,8 +32,8 @@ namespace SpellChecker.Console
         /// <param name="args"></param>
         public static void Main(string[] args)
         {
-            System.Console.Write("Please enter a sentance: ");
-            var sentance = System.Console.ReadLine();
+            System.Console.Write("Please enter a sentence: ");
+            var sentence = System.Console.ReadLine();
 
             // first break the sentance up into words, 
             // then iterate through the list of words using the spell checker

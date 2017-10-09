@@ -25,6 +25,7 @@ namespace SpellChecker.Core
         public bool Check(string word)
         {
             throw new NotImplementedException();
+            //this is a change for a pull request
         }
 
     }
